@@ -1,0 +1,87 @@
+/* Style général du corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column; /* Affichage vertical */
+}
+
+/* Style du formulaire */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  position: relative;
+}
+
+/* Style des champs input */
+input[type="file"],
+select,
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Style du bouton de soumission */
+input[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Style du label */
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Messages de succès et d'erreur */
+.message {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px; /* Pour placer juste après le bouton */
+}
+
+/* Message de succès (vert) */
+.message success-message {
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+/* Message d'erreur (rouge) */
+.message error-message {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+
+/* Ajout du responsive */
+@media (max-width: 400px) {
+  form {
+      width: 90%;
+  }
+}

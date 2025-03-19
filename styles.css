@@ -1,0 +1,87 @@
+/* Style général pour uniformiser la présentation */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3098a13;
+    color: #000000;
+  }
+  
+  /* Style de l'en-tête */
+  header {
+    background-color: #ffffffaf;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    text-align: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-left: 202px;
+  }
+  /* Marges et espaces dans la section principale */
+  main {
+    padding: 2rem;
+  }
+  /* Classe pour masquer les éléments (utilisée pour login et actions fichiers) */
+  .hidden {
+    display: none;
+  }
+  
+  /* Style des boutons */
+  button {
+    background-color: #3500c5;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    }
+
+    button#add-file-btn {
+      background: none;
+      color: black;
+    }
+
+    button#edit-file-btn {
+      background: none;
+      color: black;
+
+    }
+
+    button#edit-file-btn:hover {
+      background-color: #dfdb19;
+
+    }
+
+    button#add-file-btn:hover {
+      background-color: #dfdb19;
+
+    }
+  
+  /* Effet visuel pour le survol des boutons */
+  button:hover {
+    background-color: #dfdb19;
+  }
+
+  div#file-actions {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    margin-top: -260px;
+  }
+
+  #add-file-btn {
+    justify-content: space-between;
+  }
+  
+  /* Liste des fichiers */
+  #file-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Espacement entre les fichiers listés */
+  #file-list li {
+    margin: 0.5rem 0;
+  }
