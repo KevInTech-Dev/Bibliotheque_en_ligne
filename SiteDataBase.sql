@@ -86,3 +86,16 @@ CREATE VIEW `catalogue` AS
 SELECT `content_name`, `content_typeMIME`, `content_upload_date`
 FROM `app_contents`
 GROUP BY `content_upload_date`;
+
+DROP TABLE IF EXISTS `access_code`;
+CREATE TABLE IF NOT EXISTS `access_code` (
+  `id` int(4) NOT NULL AUTO_INCREMENT,
+  `code` char(7) NOT NULL,
+  `Numadmin` char(3) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `code` (`code`)
+);
+INSERT INTO `access_code` (`id`, `code`, `Numadmin`) VALUES
+(1, 'k@v,0n,', '001'),
+(2, 'k@l,@b,', '002'),
+(3, '@rn,0d,', '003');
