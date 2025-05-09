@@ -1,4 +1,3 @@
-
 # 📚 Bibliothèque en ligne
 
 Bienvenue dans **Bibliothèque en ligne**, une application web développée pour les amateurs de livres et les bibliothèques numériques. Ce projet vise à fournir une plateforme où les utilisateurs peuvent explorer, rechercher et gérer des livres en ligne.
@@ -24,6 +23,7 @@ Ce projet utilise une pile technologique moderne pour fournir une application ra
 - **Frontend :** CSS (5 %) et JavaScript (4.7 %)
 - **Langage complémentaire :** Hack (8.5 %) pour des fonctionnalités spécifiques.
 - **Framework :** Bootstrap5
+
 ---
 
 ## 🤝 Contribution
@@ -46,12 +46,13 @@ Les contributions sont les bienvenues ! Si vous souhaitez contribuer :
 
 ---
 
-## 📜 Licence
-Ce projet est sous licence MIT. Vous êtes libre de l'utiliser et de le modifier selon vos besoins.
-
----
-
 ## 📧 Contact
 
 Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter :
 - GitHub : [KevInTech-Dev](https://github.com/KevInTech-Dev)
+
+---
+
+## 📜 Licence
+
+Ce projet est sous licence [MIT](LICENSE). Vous êtes libre de l'utiliser, de le modifier et de le distribuer selon les termes de cette licence.
