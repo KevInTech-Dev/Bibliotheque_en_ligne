@@ -49,7 +49,7 @@ Les contributions sont les bienvenues ! Si vous souhaitez contribuer :
 ## 📜 Licence
 Ce projet est sous licence MIT. Vous êtes libre de l'utiliser et de le modifier selon vos besoins.
 
-```
+---
 
 ## 📧 Contact
 
